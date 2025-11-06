@@ -1,0 +1,6 @@
+envs/
+run1/mfa_validate/
+src/.env
+src/__pycache__/
+src/ignore/
+tmp/

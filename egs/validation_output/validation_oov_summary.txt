@@ -1,0 +1,65 @@
+Model Combination: english_india_mfa
+hennessy	8
+dukakis	2
+judgeships	1
+politicize	1
+maffy	1
+wbur	1
+margo	1
+melnicove	1
+
+Model Combination: english_mfa
+dukakis	2
+wbur	1
+melnicove	1
+politicize	1
+maffy	1
+judgeships	1
+
+Model Combination: english_nigeria_mfa
+hennessy	8
+dukakis	2
+admirers	1
+sweeping	1
+judgeships	1
+crumbling	1
+politicize	1
+maffy	1
+bait	1
+toughest	1
+wbur	1
+margo	1
+melnicove	1
+
+Model Combination: english_nonnative_mfa
+dukakis	2
+wbur	1
+melnicove	1
+judgeships	1
+politicize	1
+maffy	1
+
+Model Combination: english_uk_mfa
+dukakis	2
+politicize	1
+maffy	1
+wbur	1
+melnicove	1
+judgeships	1
+
+Model Combination: english_us_arpa
+dukakis	2
+wbur	1
+melnicove	1
+politicize	1
+maffy	1
+
+Model Combination: english_us_mfa
+dukakis	2
+judgeships	1
+wbur	1
+margo	1
+melnicove	1
+politicize	1
+maffy	1
+
