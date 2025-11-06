@@ -63,7 +63,7 @@ if __name__ == "__main__":
     # models, dicts = get_models_by_lang(lang)
     # print(f"Final models for {lang}: {models}")
     # print(f"Final dictionaries for {lang}: {dicts}")
-    
+
     parser = argparse.ArgumentParser()
     parser.add_argument("lang", type=str)
     args = parser.parse_args()

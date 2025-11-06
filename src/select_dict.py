@@ -2,7 +2,8 @@ import sys
 import argparse
 import collections
 
-def get_best_dict(filename: str, k:int = 3):
+
+def get_best_dict(filename: str, k: int = 3):
     model_oov_totals = collections.defaultdict(int)
     current_model_name = None
     try:
@@ -22,7 +23,7 @@ def get_best_dict(filename: str, k:int = 3):
                         model_oov_totals[current_model_name] += count
                     else:
                         print(f"Summary is corrupted at line {line_number+1}: {line}")
-    
+
     except Exception as e:
         print(f"An error occurred: {e}")
         return
@@ -40,6 +41,7 @@ def get_best_dict(filename: str, k:int = 3):
         print(f"{rank+1}. {model_name}:\t{count} OOVs")
         output.append(model_name)
     return output
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

@@ -88,4 +88,16 @@ data
   ```bash
   python src/train_dict.py --txt_dir "data/txt_corpus" --corpus_dir "data/example_corpus" --base_dictionary "dictionaries/english_us_arpa.dict" --g2p_model "english_us_arpa" --acoustic_model "english_us_arpa" --output_dir "egs/custom_dict/aligned_data"
   ```
+- Note:
+  - `dictionaries/english_us_arpa.dict` is the pre-trained dictionary that can be downloaded from <a href="https://github.com/MontrealCorpusTools/mfa-models/releases/download/dictionary-english_us_arpa-v3.0.0/english_us_arpa.dict"> english_us_arpa.dict </a>
 
+## Report
+- A short PDF is attached in `docs/` with relevant screenshots showing that the G2P based custom dictionary will help to handle the OOVs, and the ARPABET phoneme dictionary provides better alignments as compared to other dictionaries for the example corpus I have taken
+- Output textgrid files are visualized using praat software available at [PRAAT FOR LINUX](https://www.fon.hum.uva.nl/praat/download_linux.html)
+
+## References:
+- https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/
+- https://mfa-models.readthedocs.io/en/latest/
+- https://chat.openai.com/
+- https://deepwiki.com/MontrealCorpusTools/Montreal-Forced-Aligner
+- https://medium.com/@stanislav-kirdey/learn-with-me-what-is-montreal-force-alignment-open-source-tool-27fe7bd7179b

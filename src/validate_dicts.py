@@ -89,5 +89,5 @@ if __name__ == "__main__":
         args.out_dir,
         temp_fldr=args.temp_fldr,
         lang=args.lang,
-        debug=args.debug
+        debug=args.debug,
     )
