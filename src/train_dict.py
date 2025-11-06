@@ -5,6 +5,11 @@ from utils import combine_dictionaries
 
 
 def generate_dictionary(corpus_dir, g2p_model, output_dict_path, base_dictionary):
+    dwnld_g2p = [
+        "mfa", "model", "download", "g2p", g2p_model
+    ]
+    subprocess.run(dwnld_g2p, check=True)
+    print(f"Downloaded G2P model")
     command = [
         "mfa",
         "g2p",
