@@ -98,6 +98,3 @@ data
 ## References:
 - https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/
 - https://mfa-models.readthedocs.io/en/latest/
-- https://chat.openai.com/
-- https://deepwiki.com/MontrealCorpusTools/Montreal-Forced-Aligner
-- https://medium.com/@stanislav-kirdey/learn-with-me-what-is-montreal-force-alignment-open-source-tool-27fe7bd7179b
